@@ -1,0 +1,7 @@
+.header {
+    @apply h-header-height fixed w-full z-header px-[10px] bg-main;
+
+    &__nav {
+        @apply h-full w-full border-b border-b-main px-[10px];
+    }
+}

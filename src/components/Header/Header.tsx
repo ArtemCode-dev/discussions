@@ -1,10 +1,11 @@
 //import React from 'react'
+import s from './Header.module.scss'
 
 function Header() {
   return (
-    <div className='h-header-height'>
-        Header
-    </div>
+    <header className={s.header}>
+      <nav className={s.header__nav}>Header</nav>
+    </header>
   )
 }
 

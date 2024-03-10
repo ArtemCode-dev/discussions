@@ -1,8 +1,11 @@
 import React from 'react'
+import s from './Leftbar.module.scss'
 
 function Leftbar():React.ReactNode {
   return (
-    <div>Leftbar</div>
+    <div className={s.leftbar}>
+      <nav className={s.leftbar__nav}>Leftbar</nav>
+    </div>
   )
 }
 

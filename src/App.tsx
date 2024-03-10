@@ -1,3 +1,4 @@
+import { Routes, Route } from 'react-router-dom'
 import './App.scss'
 import Header from './components/Header/Header'
 import Leftbar from './components/Leftbar/Leftbar'
@@ -8,9 +9,20 @@ function App() {
   return (
     <>
       <Header />
-      <div>
+      <div className='content'>
         <Leftbar />
-        
+        <div className=' h-[3000px] col-span-10'>
+          <Routes>
+            <Route
+              path="/"
+              element={<>Home</>}
+            />
+            <Route
+              path="/news"
+              element={<>News</>}
+            />
+          </Routes>
+        </div>
         <Rightbar />
       </div>
     </>

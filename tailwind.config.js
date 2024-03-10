@@ -9,6 +9,13 @@ export default {
   ],
   theme: {
     extend: {
+      maxWidth: {
+        'l': '1352px',
+      },
+      gridTemplateColumns: {
+        "16": "repeat(16, minmax(0, 1fr))",
+        "14": "repeat(14, minmax(0, 1fr))"
+      },
       colors: {
         "main": "#312f33",
         "second": "#18171a",
@@ -38,13 +45,15 @@ export default {
         "header-height": "55px"
       },
       screens: {
-        'mobile': '400px',
+        'xs': '768px',
+        
+        's': '960px',
   
-        'tablet': '640px',
+        'm': '1200px',
   
-        'laptop': '950px',
+        'l': '1416px',
   
-        'desktop': '1200px',
+        'xl': '1920px',
       },
     },
   },

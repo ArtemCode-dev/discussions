@@ -1,0 +1,7 @@
+.leftbar {
+    @apply border-r border-r-main col-span-3;
+
+    &__nav {
+        @apply sticky top-[55px] p-[20px_10px];
+    }
+}

@@ -4,11 +4,15 @@
 
 
 @layer base {
+    .content {
+        @apply pt-[55px] h-screen relative grid grid-cols-16 l:max-w-l m-auto gap-6;
+    }
     body {
-        @apply bg-main text-white1
+        @apply bg-main text-white;
     }
 }
 @layer components {
+    //buttons
     .btn-primary {
         @apply rounded-3xl items-center justify-center font-medium
     }
