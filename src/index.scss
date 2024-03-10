@@ -1,0 +1,39 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base {
+    body {
+        @apply bg-main text-white1
+    }
+}
+@layer components {
+    .btn-primary {
+        @apply rounded-3xl items-center justify-center font-medium
+    }
+    .btn-red {
+        @apply p-[6px_10px] btn-primary bg-red1 text-white1;
+        &:hover {
+            @apply bg-red2
+        }
+    };
+    .btn-blue {
+        @apply p-[6px_10px] btn-primary bg-blue1 text-white1;
+        &:hover {
+            @apply bg-blue2
+        }
+    };
+    .btn-dark1 {
+        @apply p-[6px_10px] btn-primary bg-blue1 text-white1;
+        &:hover {
+            @apply bg-blue2
+        }
+    };
+    .btn-dark2 {
+        @apply p-[6px_10px] btn-primary bg-blue1 text-white1;
+        &:hover {
+            @apply bg-blue2
+        }
+    };
+}
