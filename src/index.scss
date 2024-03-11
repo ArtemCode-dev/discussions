@@ -5,7 +5,7 @@
 
 @layer base {
     .content {
-        @apply pt-[55px] h-screen relative grid grid-cols-16 l:max-w-l m-auto gap-6;
+        @apply pt-[55px] h-screen relative grid l:grid-cols-16 l:max-w-l m-auto gap-6;
     }
     body {
         @apply bg-main text-white;
@@ -17,7 +17,7 @@
         @apply rounded-3xl items-center justify-center font-medium
     }
     .btn-red {
-        @apply p-[6px_10px] btn-primary bg-red1 text-white1;
+        @apply p-[8px_10px] btn-primary bg-red1 text-white1;
         &:hover {
             @apply bg-red2
         }

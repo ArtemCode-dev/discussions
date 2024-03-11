@@ -5,6 +5,10 @@
         @apply h-full w-full border-b border-b-main px-[10px] flex items-center;
     }
     &__container {
-        @apply l:grid-cols-16 grid gap-6 items-center l:h-[40px] w-full;
+        @apply l:grid-cols-16 grid gap-6 items-center l:h-[40px] xl:grid-cols-18 w-full;
     }
+}
+
+.search {
+    @apply grid l:grid-cols-16 l:max-w-l m-auto absolute gap-6 top-[7px] left-0 right-0 bottom-0;
 }
