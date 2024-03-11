@@ -1,9 +1,10 @@
 import React from 'react'
+import s from './Rightbar.module.scss'
 
 function Rightbar():React.ReactNode {
   return (
-    <div className='top-0 left-0 col-span-3'>
-      <div className='sticky top-[55px]'>Rightbar</div>
+    <div className={s.rightbar}>
+      <nav className={s.rightbar__nav}>Rightbar</nav>
     </div>
   )
 }

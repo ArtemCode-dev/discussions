@@ -11,7 +11,7 @@ function App() {
       <Header />
       <div className='content'>
         <Leftbar />
-        <div className=' h-[3000px] col-span-10'>
+        <div className=' h-[3000px] col-span-9'>
           <Routes>
             <Route
               path="/"

@@ -1,0 +1,7 @@
+.search {
+    @apply p-[8px_20px] rounded-3xl bg-fourth flex items-center gap-[10px];
+
+    &:hover {
+        @apply bg-third;
+    }
+}

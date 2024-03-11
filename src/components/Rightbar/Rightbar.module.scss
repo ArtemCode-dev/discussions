@@ -1,3 +1,7 @@
 .rightbar {
-    
+    @apply col-span-4;
+
+    &__nav {
+        @apply sticky top-[55px];
+    }
 }

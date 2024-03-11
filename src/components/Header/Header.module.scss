@@ -2,6 +2,9 @@
     @apply h-header-height fixed w-full z-header px-[10px] bg-main;
 
     &__nav {
-        @apply h-full w-full border-b border-b-main px-[10px];
+        @apply h-full w-full border-b border-b-main px-[10px] flex items-center;
+    }
+    &__container {
+        @apply l:grid-cols-16 grid gap-6 items-center l:h-[40px] w-full;
     }
 }
