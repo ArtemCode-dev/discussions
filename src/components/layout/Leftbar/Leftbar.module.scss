@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .item {
+        @apply py-5 border-b-main
+    }
+}
+
+.leftbar {
+    @apply border-r border-r-main col-span-3;
+
+    &__nav {
+        @apply sticky top-[55px] pr-[10px];
+    }
+
+    &__top {
+        @apply item border-b;
+    }
+
+    &__recent {
+        @apply item border-b;
+    }
+
+    &__сommunities {
+        @apply item;
+    }
+}

@@ -1,6 +1,6 @@
 //import React from 'react'
 import { useCallback } from 'react'
-import Input from '../UI/Input/Input'
+import Input from '../../UI/Input/Input'
 import s from './Header.module.scss'
 
 function Header() {

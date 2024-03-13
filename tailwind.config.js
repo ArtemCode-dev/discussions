@@ -22,6 +22,7 @@ export default {
         "second": "#18171a",
         "third": "#545157",
         "fourth": "#45434a",
+        "fifth": "#3d3b40",
         "red1": "#d91623",
         "red2": "#c2131f",
         "blue1": "#3916c4",

@@ -1,0 +1,15 @@
+.details {
+    @apply rounded-xl flex items-center h-10 justify-between py-1 px-4 cursor-pointer select-none;
+
+    &:hover {
+        @apply bg-fifth;
+    }
+}
+
+.summary {
+    @apply hidden;
+
+    &_open {
+        @apply flex flex-col;
+    }
+}
